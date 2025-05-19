@@ -1,0 +1,362 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*--
+    custom heading Start
+--*/
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav .block {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+  nav .block .navbar-brand img {
+    padding-left: 25px;
+  }
+  /*--
+    slider Start
+--*/
+  #slider .block h3 {
+    text-align: left;
+  }
+  #slider .block .owl-carousel img {
+    padding-right: 0px;
+    width: 95%;
+  }
+  /*--
+    collection Start
+--*/
+  #collection .block {
+    text-align: center;
+  }
+  #collection .block ul {
+    padding-bottom: 40px;
+  }
+  #collection .block ul li {
+    width: 100%;
+  }
+  #collection .block ul li h3 {
+    padding: 0px 0px 30px;
+  }
+  #collection .block ul li .collection-img {
+    width: 50%;
+  }
+  #collection .block ul li .collection-img img {
+    width: 100%;
+  }
+  #collection .block ul li .collection-img-2 {
+    width: 50%;
+  }
+  #collection .block ul li .collection-img-2 img {
+    width: 100%;
+  }
+  #collection .block ul li .content-left {
+    padding: 40px 20px 0;
+  }
+  #collection .block ul li .content-right {
+    padding: 40px 20px 0;
+  }
+  #collection .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+  }
+  #collection .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+  /*--
+    product Start
+--*/
+  #product .block p {
+    padding: 30px 0 0;
+  }
+  #product .block .pricing-list {
+    text-align: left;
+  }
+  /*--
+    contact-us Start
+--*/
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block {
+    text-align: center;
+  }
+  #contact-us .block .title {
+    text-align: left;
+  }
+  #contact-us .block a {
+    padding: 15px 80px;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+  #footer .block {
+    padding-bottom: 20px;
+  }
+  #footer .block h3 {
+    padding-bottom: 10px;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar-nav {
+    float: inherit;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  /*--
+    custom heading Start
+--*/
+  .heading {
+    text-align: center;
+    font-size: 22px;
+  }
+  .heading span {
+    font-size: 28px;
+  }
+  /*--
+    custom heading Start
+--*/
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav {
+    position: relative;
+  }
+  nav .block {
+    padding: 0px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+  }
+  nav .block .navbar-brand img {
+    padding-left: 10px;
+  }
+  nav .block .navbar-default {
+    margin-top: 10px;
+    padding: 3px 0;
+  }
+  nav .block .navbar-default .navbar-header {
+    padding-bottom: 15px;
+    margin-top: 0px;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle {
+    margin-top: 15px;
+    border: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
+    background: #e94c3d;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:focus {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:active {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:hover {
+    background: none;
+  }
+  /*--
+    slider Start
+--*/
+  #slider .block {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #slider .block .owl-carousel {
+    padding-top: 30px;
+    position: relative;
+  }
+  #slider .block .owl-carousel div img {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    padding-right: 0px;
+  }
+  /*--
+    about-us Start
+--*/
+  #about-us {
+    padding: 70px 0;
+  }
+  #about-us .block p {
+    padding: 40px 0px 0px;
+  }
+  /*--
+    custom title Start
+--*/
+  #title h2 {
+    font-size: 20px;
+  }
+  #title h2 span {
+    font-size: 25px;
+  }
+  /*--
+    collection Start
+--*/
+  #collection .block ul {
+    padding-bottom: 30px;
+  }
+  #collection .block ul li {
+    float: none;
+    width: 100%;
+    height: 100%;
+  }
+  #collection .block ul li .collection-img {
+    float: none;
+    width: 100%;
+  }
+  #collection .block ul li .collection-img img {
+    width: 100%;
+  }
+  #collection .block ul li .collection-img-2 {
+    float: none;
+    width: 100%;
+  }
+  #collection .block ul li .collection-img-2 img {
+    width: 100%;
+  }
+  #collection .block ul li .content-right {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #collection .block ul li .content-right:after {
+    display: none;
+  }
+  #collection .block ul li .content-left {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #collection .block ul li .content-left:after {
+    display: none;
+  }
+  #collection .block .btn-more-info {
+    float: none;
+    margin-top: 30px;
+    padding: 28px 85px;
+  }
+  #collection .block .btn-more-info:hover {
+    border-radius: 10px;
+  }
+  /*--
+    product Start
+--*/
+  #product .block p {
+    padding: 40px 0px 0px;
+  }
+  #product .block .pricing-list {
+    text-align: left;
+  }
+  #product .block .pricing-list ul li .item {
+    float: none;
+  }
+  #product .block .pricing-list ul li .item .item-title .border-bottom {
+    display: none;
+  }
+  #product .block .pricing-list ul li .item .item-title span {
+    padding-top: 10px;
+    display: block;
+    float: none;
+  }
+  #product .block .pricing-list .btn {
+    float: inherit;
+    padding: 28px 100px;
+  }
+  /*--
+    social Start
+--*/
+  #social .block h1 {
+    font-size: 30px;
+  }
+  #social .block h1 span {
+    font-size: 25px;
+  }
+  #social .block form .form-group .input-group {
+    width: 100%;
+  }
+  #social .block form .form-group .input-group .form-control {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+  }
+  #social .block form .form-group .input-group .input-group-addon {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+  }
+  /*--
+    contact-us Start
+--*/
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block a {
+    padding: 20px 80px;
+    width: 100%;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+  #footer .block {
+    padding-bottom: 50px;
+  }
+  #footer .block .info ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #footer .block .portfolio img {
+    margin-top: 20px;
+  }
+  #footer .block .portfolio ul li {
+    margin-right: 0px;
+    display: inline-block;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar {
+    display: none;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
